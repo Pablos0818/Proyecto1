@@ -1,0 +1,33 @@
+
+#seccion2{
+
+    background-color: white;
+
+}
+#seccion2 h3{
+    font-style: italic;
+}
+#seccion2 p{
+    font-size: large;
+}
+#seccion2 div{
+grid-template-columns: repeat(2 1fr);
+
+background-color: rgb(83, 159, 221);
+width: max-content;
+height: max-content;
+border: solid;
+border-color: black;
+
+}
+
+#seccion3{
+
+    background-color: rgb(67, 143, 124);
+}
+
+#seccion4{
+
+    background-color: white;
+}
+
