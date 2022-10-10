@@ -1,20 +1,27 @@
 *{
     margin: 0;
+   
+
     padding: 0;
     box-sizing: border-box;
 }
 body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
+
+header{
+    background-color: white;
+}
 nav{
-display: flex;
+
 }
 
-.galeria{
+.grid-container{
     background-color: none;
-    padding-bottom: 1em;
-    padding: top 1em;;
-    margin: 1px;
+    padding-bottom: 20px;
+    padding: 5px;;
+    margin: 5px;
+    margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(4 1fr);
     grid-auto-rows: 300px;
@@ -25,27 +32,67 @@ display: flex;
     "img3 img3 img4 img4";
     }
     
+.grid-item{
+background-color: none;
 
-.imagen1{
+
+}
+.item1{
     grid-area: img1;
+    width: 80%;
+    height: 80%;
+    border-color: none;
+    border-style: none;
+    border-radius: none;
+    text-align: center;
+   
+}
+.item1 img{
     width: 100%;
     height: 100%;
-    border-color: darkslategrey;
+    border-radius: 50px;
 }
-.imagen2{
+
+.item2{
     grid-area: img2;
+    width: 80%;
+    height: 80%;
+    border-color: none;
+    border-style: none;
+    text-align: center;
+}
+.item2 img{
     width: 100%;
     height: 100%;
+    border-radius: 50px;
 }
-.imagen3{
+.item3{
     grid-area: img3;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    border-color: none;
+    border-style: none;
+    text-align: center;
 }
-.imagen4{
-    grid-area: img4;
+
+.item3 img{
     width: 100%;
     height: 100%;
+    border-radius: 50px;
+}
+.item4{
+    grid-area: img4;
+    width: 80%;
+    height: 80%;
+    border-color: none;
+    border-style: none;
+    text-align: center;
+}
+
+.item4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
 }
 
 
