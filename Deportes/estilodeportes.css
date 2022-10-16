@@ -4,6 +4,7 @@
 
     padding: 0;
     box-sizing: border-box;
+   
 }
 body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
@@ -17,36 +18,10 @@ width: 150px;
 height: 150px;
 
 
-}
-#seccion2{
-
-    background-color: white;
-
-}
-#seccion2 h3{
-    font-style: italic;
-}
-#seccion2 p{
-    font-size: large;
-}
-#seccion2 div{
-grid-template-columns: repeat(2 1fr);
-
-background-color: rgb(83, 159, 221);
-width: max-content;
-height: max-content;
-border: solid;
-border-color: black;
 
 }
 
-#seccion3{
-
-    background-color: rgb(67, 143, 124);
+#imagenatletismo, iframe{
+    border-radius: 25px;
+    align-content: space-between;
 }
-
-#seccion4{
-
-    background-color: white;
-}
-
