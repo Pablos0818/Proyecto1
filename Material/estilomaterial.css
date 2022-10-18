@@ -5,6 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav{
+    background-color: rgb(28, 45, 202);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+li,a{
+    color: white;
+    display: inline;
+    padding: 40px;
+    text-decoration-line: none;
+}
 body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
