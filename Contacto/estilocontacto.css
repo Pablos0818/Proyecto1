@@ -23,6 +23,7 @@ form{
     border: solid;
     border-color: rgb(1, 1, 1);
     height: 300px;
+    width: auto;
 }
 
 

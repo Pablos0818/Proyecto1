@@ -1,16 +1,25 @@
 *{
     margin: 0;
-   
-
     padding: 0;
     box-sizing: border-box;
   
 }
+header{
+    background-color: white;
+}
+header img{
+width: 150px;
+height: 150px;
+padding: 0;
+margin: 0;
+}
+
 nav{
     background-color: #1d617a;
-    height: 50px;
+    height: 30px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 
@@ -19,34 +28,28 @@ li,a{
     display: inline;
     padding: 40px;
     text-decoration-line: none;
+    font-size: 30px;
 }
 body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
-header{
-    background-color: white;
-}
-header img{
-width: 150px;
-height: 150px;
-padding: 5px;
-margin: 5px;
-
-
-
-}
-
-.section1{
+#section1{
     font-size: large;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     
 }
+.section1, img{
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    
+}
 .grid-container{
     background-color: #1d617a;
-    padding-top: 40%;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding:0;
     margin:0;
     margin-left: 0;
@@ -70,6 +73,7 @@ background-color: none;
     grid-area: img1;
     width: 80%;
     height: 80%;
+    padding-top: 30px;
     border-color: none;
     border-style: none;
     border-radius: none;
@@ -86,6 +90,7 @@ background-color: none;
     grid-area: img2;
     width: 80%;
     height: 80%;
+    padding-top: 30px;
     border-color: none;
     border-style: none;
     text-align: center;
@@ -99,6 +104,7 @@ background-color: none;
     grid-area: img3;
     width: 80%;
     height: 80%;
+    padding-top: 30px;
     border-color: none;
     border-style: none;
     text-align: center;
@@ -113,6 +119,7 @@ background-color: none;
     grid-area: img4;
     width: 80%;
     height: 80%;
+    padding-top: 30px;
     border-color: none;
     border-style: none;
     text-align: center;
@@ -199,11 +206,37 @@ grid-row-start: 11;
 grid-row-end: 20;
 
 
-}
-.footer{
-font-family: Arial, Helvetica, sans-serif;
-text-align:center;
-width: 200px;
-height: 200px;
+}*/
+
+h1{
+color: #1d617a;
+text-shadow: 1px;   
 }
 
+form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: none;
+    border: none;
+    border-color: rgb(1, 1, 1);
+    height: 400px;
+    width: auto;
+}
+.footer{
+background-color: #1d617a;  
+color: white;  
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+width: 100%;
+height: 100%;
+padding-top: 40px;
+padding-bottom: 20px;
+font-size: x-large;
+}
+.footer i{
+    width: 40px;
+    height: 40px;
+    
+    
+}
