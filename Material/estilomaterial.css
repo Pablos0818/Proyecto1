@@ -18,6 +18,7 @@ li,a{
     display: inline;
     padding: 40px;
     text-decoration-line: none;
+    font-size: 30px;
 }
 body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
@@ -34,7 +35,7 @@ height: 150px;
 
 }
 
-.footer{
+footer{
     position: relative;
     background-image: linear-gradient(120deg, #1d617a 0%, #2b7eae 100%);
     width: 100%;
@@ -43,11 +44,11 @@ height: 150px;
     left: 0;
     text-align: center;
     padding: 15px;
-    font-size: x-large;
+    font-size: 20px;
     color: white;
 
 }
-.footer i{
+footer i{
     width: 50px;
     height: 50px;
     
