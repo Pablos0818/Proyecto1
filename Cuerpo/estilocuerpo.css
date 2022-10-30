@@ -36,6 +36,42 @@ header img{
         height: 90%;
         margin: 0;
 }
+h1{color: #1d617a;
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{color: #1d617a;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial;
+    
+}
+.container1{
+    display: inline-flex;
+    margin-bottom: 40px;
+    margin-right: 300px;
+    margin-left: 100px;
+justify-content: space-around;
+width: 90%;
+height: 350px;
+
+}
+
+.container2{
+    display: inline-flex;
+    margin-bottom: 40px;
+    margin-right: 300px;
+    margin-left: 100px;
+justify-content: space-around;
+width: 90%;
+height: 350px;
+}
+
 .footer{
     position: relative;
     background-image: linear-gradient(120deg, #1d617a 0%, #2b7eae 100%);
