@@ -1,7 +1,5 @@
 *{
     margin: 0;
-   
-
     padding: 0;
     box-sizing: border-box;
 }
@@ -57,7 +55,8 @@ p{color: white;
 }
 .grid-container1{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    object-fit:contain;
     
 }
 
@@ -68,8 +67,8 @@ p{color: white;
     background-image: linear-gradient(120deg, #1d617a 0%, #2b7eae 100%);    
     padding-top: 30px;
     padding-bottom: 30px;
-    column-gap: 0.5em;
-    row-gap: 0.5em;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
    
     
 }
@@ -80,6 +79,7 @@ p{color: white;
     background-image: linear-gradient(120deg, #1d617a 0%, #2b7eae 100%);    
     padding-top: 30px;
     padding-bottom: 30px;
+    grid-row-gap: 0.5em;
    
     
 }
