@@ -28,7 +28,10 @@ header{
     background-color: white;
 }
 header img{
-width: auto
+width: 150px;
+height: 150px;
+padding: 0;
+margin: 0;
 
 }
 
@@ -55,11 +58,9 @@ p{color: white;
 .grid-container1{
     display: flex;
     justify-content: center;
-    gap: 0;
-
     
-
 }
+
 .grid-container2{
     display: grid;
     grid-template-columns: 33% 33% 33%;
