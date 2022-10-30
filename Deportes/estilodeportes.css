@@ -58,19 +58,23 @@ p{color: white;
 #img, iframe{
     border-radius: 25px;
     align-content: space-between;
+    
 }
 .grid-container1{
     display: flex;
     justify-content: center;
     gap: 20px;
+   
 }
 .grid-container2{
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 .grid-container3{
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .footer{
