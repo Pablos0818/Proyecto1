@@ -31,7 +31,7 @@ nav{
 li,a{
     color: white;
     display: inline;
-    padding: 25px;
+    padding: 40px;
     text-decoration-line: none;
     font-size: 30px;
 }
@@ -147,7 +147,7 @@ p{color: black;
     height: 500px;
     border-radius: 50px;
 }
-.footer{
+footer{
     position: relative;
     background-image: linear-gradient(120deg, #1d617a 0%, #2b7eae 100%);
     width: 100%;
