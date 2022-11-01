@@ -70,7 +70,7 @@ p{color: white;
 }
 .grid-container1{
     display: flex;
-    
+
     justify-content:space-around;
     object-fit:contain;
     
