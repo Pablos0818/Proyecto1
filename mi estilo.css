@@ -12,12 +12,13 @@ body{
     font-family: Arial, Helvetica, sans-serif; 
  }
 
-nav{
+.nav{
     background-image: linear-gradient(120deg, #1d617a 0%, #2b7eae 100%);
     height: 30px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 60px;
+    z-index: 1;
 }
 
 
@@ -27,6 +28,7 @@ li,a{
     padding: 40px;
     text-decoration-line: none;
     font-size: 30px;
+    z-index: 2;
 }
 
 
@@ -39,7 +41,8 @@ li,a{
 #section1, img{
     width: 100%;
     height: 90%;
-    margin: 0;
+    margin: 10;
+    z-index: -1;
     
 }
 .grid-container{
